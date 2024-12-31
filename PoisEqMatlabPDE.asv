@@ -1,0 +1,6 @@
+% 
+%% Creat PDE model and include geometry
+model = createpde();
+geometryFromEdges(model,@squareg); % Changed from @circleg
+
+%%
